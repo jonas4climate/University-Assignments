@@ -1,1 +1,2 @@
-Random projects to study various coding languages.
+Programming in Java "Assignment 1"
+
