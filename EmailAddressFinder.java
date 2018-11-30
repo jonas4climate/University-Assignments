@@ -2,7 +2,7 @@
 //Reading Email-Addresses out of a corrupted database file "corrupteddb"
 //Jonas Schaefer 1944365
 
-//code apart from the emailAddressFinder provided by the lecturer
+//code apart from the findEmailAddresseses-method provided by the lecturer
 //any code other than Jonas Schäfer's taken out due to publication restriction
 
 public ArrayList<String> findEmailAddresses(String input) {
