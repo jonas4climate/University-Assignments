@@ -1,6 +1,6 @@
 # Robotic EV3 Projects
 
-Both the assisted and complete maze-solver programs (written in Java and [leJOS](www.lejos.com)) are used to guide a [Lego Mindstorms EV3](https://education.lego.com/en-gb/product/mindstorms-ev3) through a maze system.
+Both the assisted and complete maze-solver programs (written in Java and [leJOS](www.lejos.org)) are used to guide a [Lego Mindstorms EV3](https://education.lego.com/en-gb/product/mindstorms-ev3) through a maze system.
 
 ---
 
