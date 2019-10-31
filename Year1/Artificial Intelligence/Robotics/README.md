@@ -17,9 +17,10 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 
 Our specifications were:
 
-<img src="images/Maze1_Spec.png" alt="spec1" width="500"/>
-<img src="images/Maze1_Spec3.png" alt="spec2" width="500"/>
+![spec1](images/Maze1_Spec.png | width=500)
 
+<img src="images/Maze1_Spec.png" alt="spec1" height="300" width="500"/>
+<img src="images/Maze1_Spec3.png" alt="spec2" width="500"/>
 ## Complete Maze Solver
 
 The complete maze solver is a vastly more complicated task. It was supposed to mimic an emergency robot mapping and traversing terrain to find an accident site and find the shortest path for medical help.
