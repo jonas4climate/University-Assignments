@@ -2,6 +2,12 @@
 
 Both the assisted and complete maze-solver programs are used to guide a [Lego Mindstorms EV3](https://education.lego.com/en-gb/product/mindstorms-ev3) through a maze system.
 
+---
+
+Both programs were designed and implemented as a group. Our group consisted of Jake Pierrepont, Jonathan Caines and me (all First Years at the time). Permission for publication has been ensured prior to uploading and all files have authors assigned to them that were responsible for the specific code segment.
+
+---
+
 ## Assisted Maze Solver
 
 The assisted maze solver program was the first (marked) assignment we had using the robot.
@@ -9,9 +15,10 @@ The maze was just a grid of **black tape-lines** where the robot should follow t
 
 We used light and IR sensors to detect the lines (and their color) and objects respectively.
 
-Our specifications were: 
-![spec1](images/Maze1_Spec.png)
-![spec3](images/Maze1_Spec3.png)
+Our specifications were:
+
+<img src="images/Maze1_Spec.png" alt="spec1" width="500"/>
+<img src="images/Maze1_Spec3.png" alt="spec2" width="500"/>
 
 ## Complete Maze Solver
 
@@ -39,16 +46,30 @@ The specification file for the assignment was large but can be mostly summarized
 
 - Travers the maze as fast as possible
 - Display the map in some output (e.g. on the robot in text or over bluetooth as command output)
+- Robot must at any point be able to travers back to the start of the maze
 
 ### The map
 
-![map](images/Maze2.jpg)
+<img src="images/Maze2.jpg" alt="maze2" width="400"/>
 
-### Our robot
+---
 
-![robot](images/Robot_Angle.jpg)
-![robot2](images/Robot_Top.jpg)
+### Our solution
 
-## Our live-updated map
+#### The robot
 
-![ui](images/MappingUI.jpg)
+<img src="images/Robot_Angle.jpg" alt="robot" height="500"/>
+
+<img src="images/Robot_Top.jpg" alt="robot2" height="500"/>
+
+#### Our live-updating map
+
+<img src="images/MappingUI.jpg" alt="mapping" height="600"/>
+
+Apart from meeting the general assignment goals we additionally implemented
+
+- an A* search algorithm and prediction model to efficiently find the fastest route if the program was used on a large-scale maze.
+- a live-updating map running on a GUI on any bluetooth-paired device (here MacBook). Bluetooth pairing is automated. The GUI additionally displays the stack to return back to the starting tile in case of a call-back (green) as well as a predicted shortest route back (yellow) that will be reevaluated after every tile to check for validity.
+- parallel scanning of the terrain while driving to significantly increase speed and map-update sending while robot rolls but stopped motors.
+
+We also mounted both an Ultrasonic and Infrared sensor on a motor to rotate them and scan all 3 sides (left, front, right) while driving and use IR for higher precision low-distance measurements and US for lower precision measurement verification.
