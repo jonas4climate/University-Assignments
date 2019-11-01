@@ -18,6 +18,7 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 Our specifications were:
 
 ![spec1](images/Maze1_Spec.png)
+
 ![spec2](images/Maze1_Spec3.png)
 
 ## Complete Maze Solver
