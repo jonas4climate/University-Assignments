@@ -17,8 +17,9 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 
 Our specifications were:
 
-<img src="images/Maze1_Spec.png" />
-
+<html>
+<img alt="spec1" src="images/Maze1_Spec.png" width="400" />
+</html>
 ![spec2](images/Maze1_Spec3.png)
 
 ## Complete Maze Solver
