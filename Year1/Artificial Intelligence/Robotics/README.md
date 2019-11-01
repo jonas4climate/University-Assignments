@@ -17,8 +17,8 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 
 Our specifications were:
 
-<img src="images/Maze1_Spec.png" alt="spec1" width="500"/>
-<img src="images/Maze1_Spec3.png" alt="spec2" width="500"/>
+![spec1](images/Maze1_Spec.png)
+![spec2](images/Maze1_Spec3.png)
 
 ## Complete Maze Solver
 
@@ -50,7 +50,7 @@ The specification file for the assignment was large but can be mostly summarized
 
 ### The map
 
-<img src="images/Maze2.jpg" alt="maze2" width="400"/>
+![maze2](images/Maze2.jpg)
 
 ---
 
@@ -58,13 +58,13 @@ The specification file for the assignment was large but can be mostly summarized
 
 #### The robot
 
-<img src="images/Robot_Angle.jpg" alt="robot" height="500"/>
+![robot](images/Robot_Angle.jpg)
 
-<img src="images/Robot_Top.jpg" alt="robot2" height="500"/>
+![robot2](images/Robot_Top.jpg)
 
 #### Our live-updating map
 
-<img src="images/MappingUI.jpg" alt="mapping" height="600"/>
+![text](images/MappingUI.jpg)
 
 Apart from meeting the general assignment goals we additionally implemented
 
