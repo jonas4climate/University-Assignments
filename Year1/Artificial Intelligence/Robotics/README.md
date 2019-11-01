@@ -18,7 +18,7 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 Our specifications were:
 
 <html>
-<img alt="spec1" src="images/Maze1_Spec.png" width="400" />
+<img alt="spec1" src="images/Maze1_Spec.png"/>
 </html>
 ![spec2](images/Maze1_Spec3.png)
 
