@@ -20,6 +20,16 @@ Our specifications were:
 ![spec1](images/Maze1_Spec.png)
 ![spec2](images/Maze1_Spec3.png)
 
+<img src="images/Maze1_Spec.png" width=300 />
+
+.
+
+<img src="images/Maze1_Spec.png" width=300/>
+
+.
+
+<img alt="test" src="images/Maze1_Spec.png" width=300/>
+
 ## Complete Maze Solver
 
 The complete maze solver is a vastly more complicated task. It was supposed to mimic an emergency robot mapping and traversing terrain to find an accident site and find the shortest path for medical help.
