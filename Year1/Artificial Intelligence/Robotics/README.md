@@ -18,7 +18,6 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 Our specifications were:
 
 <img src="images/Maze1_Spec.png" width=500/>
-
 <img src="images/Maze1_Spec3.png" width=500/>
 
 
@@ -61,7 +60,6 @@ The specification file for the assignment was large but can be mostly summarized
 #### The robot
 
 <img src="images/Robot_Angle.jpg" height=400/>
-
 <img src="images/Robot_Top.jpg" width=400/>
 
 #### Our live-updating map
