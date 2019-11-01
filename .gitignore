@@ -25,12 +25,6 @@ hs_err_pid*
 # For Mac
 *.DS_STORE
 
-# Ignore Images
-*.png
-*.jpg
-*.heic
-*.heif
-
 # For Latex
 *.aux
 *.glo
