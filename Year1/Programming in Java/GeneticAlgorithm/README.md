@@ -1,4 +1,4 @@
-## Genetic Algorithms
+# Genetic Algorithms
 
 In my course **Programming in Java** we were assigned to implement a Genetic Algorithm.
 
