@@ -37,7 +37,7 @@ The specification file for the assignment was large but can be mostly summarized
 ### The robot
 
 <img src="images/Robot_Angle.jpg" height=400/>
-<img src="images/Robot_Top.jpg" width=400/>
+<img src="images/Robot_Top.JPG" width=400/>
 
 ### Our live-updating map
 
