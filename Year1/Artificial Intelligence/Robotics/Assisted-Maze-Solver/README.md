@@ -7,5 +7,5 @@ We used light and IR sensors to detect the lines (and their color) and objects r
 
 Our specifications were:
 
-<img src="images/Maze1_Spec.png" width=500/>
+<img src="images/Maze1_Spec.PNG" width=500/>
 <img src="images/Maze1_Spec3.png" width=500/>
